@@ -1,0 +1,34 @@
+class Solution {
+    public void reverseWords(char[] s) {
+        List<Integer> spaces = new ArrayList();
+        int len = s.length;
+        for(int i=0; i<len; i++){
+            if(s[i]==' ')
+                spaces.add(i);
+        }
+        if(spaces.size()==0)
+            return ;
+        int size = spaces.size();
+        char[] t = new char[len];
+        int last=len;
+        int j=0;
+        for(int i=size-1; i>=0; i--){
+            int start = spaces.get(i);
+            for(int k=start+1; k<last; k++){
+                t[j] = s[k];
+                j++;
+            }
+            t[j] =' ';
+            j++;
+            last = start;
+        }
+        int start=0;
+        for(int k=start; k<last; k++){
+            t[j] = s[k];
+            j++;
+        }
+        for(int i=0; i<len; i++){
+            s[i]=t[i];
+        }
+    }
+}
