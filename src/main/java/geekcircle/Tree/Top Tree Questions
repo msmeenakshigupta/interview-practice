@@ -1,0 +1,58 @@
+URL techiedelight.com/binary-search-tree-bst-interview-questions/
+
+
+Insertion in BST [EASY]
+
+Search given key in BST [EASY]
+
+Deletion from BST [MEDIUM]
+
+Construct balanced BST from given keys [EASY]
+
+Determine if given Binary Tree is a BST or not [MEDIUM]
+
+Check if given keys represents same BSTs or not without building the BST [HARD]
+
+Find inorder predecessor for given key in a BST [MEDIUM]
+
+Find Lowest Common Ancestor (LCA) of two nodes in a Binary Search Tree [EASY]
+
+Find K’th smallest and K’th largest element in BST [EASY]
+
+Floor and Ceil in a Binary Search Tree [MEDIUM]
+
+Find optimal cost to construct binary search tree [HARD]
+
+Convert a Binary Tree to BST by maintaining its original structure [MEDIUM]
+
+Remove nodes from BST that have keys outside the valid range [MEDIUM]
+
+Find a pair with given sum in a BST [EASY]
+
+Find inorder successor for given key in a BST [MEDIUM]
+
+Replace every element of an array with the least greater element on its right [MEDIUM]
+
+Fix a binary tree that is only one swap away from becoming a BST [HARD]
+
+Update every key in BST to contain sum of all greater keys [MEDIUM]
+
+Check if a given sequence represents preorder traversal of a BST [HARD]
+
+Build a Binary Search Tree from a Postorder Sequence [HARD]
+
+Build a Binary Search Tree from a Preorder Sequence [HARD]
+
+Find a triplet with given sum in a BST [HARD]
+
+Count subtrees in a BST whose nodes lies within a given range [MEDIUM]
+
+Merge two BSTs into a doubly linked list in sorted order [HARD]
+
+Construct a height-balanced BST from an unbalanced BST [HARD]
+
+Find the size of the largest BST in a Binary Tree [HARD]
+
+Convert a Binary Search Tree into a Min Heap [HARD]
+
+Construct a Height-Balanced BST from a Sorted Doubly Linked List [HARD]

@@ -1,0 +1,1 @@
+SELECT * FROM ( SELECT * FROM emp ORDER BY Salary desc) WHERE rownum <= 3 ORDER BY Salary ;

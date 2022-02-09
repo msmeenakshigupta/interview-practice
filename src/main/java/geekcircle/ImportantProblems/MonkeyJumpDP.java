@@ -1,0 +1,36 @@
+package com.geekcircle.ImportantProblems;
+
+
+import java.util.Arrays;
+
+public class MonkeyJumpDP {
+    public static void main(String[] args) {
+        int[] arr ={1,3,5,8,9,2,6,7,6,8,9};
+        System.out.println(monkeyJump(arr));
+    }
+
+    private static int monkeyJump(int[] arr){
+        int[] lookup = new int[arr.length];
+        lookup[0] = 0;
+        int n = arr.length;
+        int i = 0;
+        while (i != n ){
+            int j = i-1;
+            while (j >= 0){
+                if(arr[j] >= (i-j)){
+                    if(lookup[i] > (lookup[j]+1) || lookup[i] == 0){
+                        if(lookup[i] == 0){
+                            lookup[i] = lookup[j]+1;
+                        } else {
+                            lookup[i] = Math.min(lookup[i], lookup[j]+1);
+                        }
+                    }
+                }
+                j--;
+            }
+            i++;
+        }
+        System.out.println(Arrays.toString(lookup));
+        return lookup[n-1];
+    }
+}
